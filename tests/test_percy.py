@@ -4,9 +4,7 @@ import os
 import time
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash import dcc, html, Input, Output
 from PIL import Image
 
 

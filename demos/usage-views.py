@@ -4,7 +4,7 @@ This demos shows you how to customize views using the JSON API.
 
 import dash
 import dash_deck
-import dash_html_components as html
+from dash import html
 
 
 data = {

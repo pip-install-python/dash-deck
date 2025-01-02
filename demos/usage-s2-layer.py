@@ -10,7 +10,7 @@ import os
 
 import dash
 import dash_deck
-import dash_html_components as html
+from dash import html
 import pydeck as pdk
 import pandas as pd
 

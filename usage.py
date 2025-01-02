@@ -1,6 +1,6 @@
 import dash
 import dash_deck
-import dash_html_components as html
+from dash import html
 
 
 data = {
@@ -26,4 +26,4 @@ app.layout = html.Div(dash_deck.DeckGL(data, id="deck-gl"))
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, port='7812')

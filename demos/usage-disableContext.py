@@ -10,8 +10,7 @@ LODES data set: https://lehd.ces.census.gov/data/
 import os
 import dash
 import dash_deck
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import dcc, html
 import pydeck as pdk
 import plotly.express as px
 import pandas as pd
